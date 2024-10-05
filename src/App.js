@@ -40,7 +40,7 @@ export default function App() {
         <button type="submit">Search</button>
       </form>
       {loading ? (
-        <p>Loading data…</p>
+        <p>Loading data...</p>
       ) : (
         JSON.stringify(data) != "{}" && (
           <div className="weather-cards">
