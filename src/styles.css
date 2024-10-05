@@ -1,0 +1,31 @@
+html {
+  background-color: rgb(199, 237, 237);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input,
+button {
+  height: 30px;
+  font-size: 20px;
+}
+button {
+  background-color: green;
+  border: none;
+  color: white;
+}
+.weather-cards {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.weather-card {
+  background-color: white;
+  width: 250px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
